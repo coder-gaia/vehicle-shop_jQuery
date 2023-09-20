@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Motors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Ysabeau+SC:wght@200;500&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<body>
+    <header>
+        <div class="container  container-flex">
+            <h1>Creative Motors</h1>
+            <div class="hamburguer-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">            
+                <ul>
+                <li>
+                    <a href="#about-the-shop">About</a>
+                </li>
+                <li>
+                    <a href="#trending">Trending</a>
+                </li>
+                <li>
+                    <a href="#promotions">Promotions</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </nav>            
+    </header>
+    <div id="images-carousel">
+        <img src="./images/slide1.png" alt="Porsche car">
+        <img src="./images/slide2.png" alt="BMW car">
+        <img src="./images/slide3.png" alt="Ford GT car">
+    </div>
+    <section id="about-the-shop">
+        <div class="container container-flex">
+            <img src="./images/loja.jpg" alt="ebac motors img">
+            <div>
+               <h2> About Creative Motors</h2>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quos debitis harum fugit perferendis? Mollitia officiis, dicta beatae quia error vel harum tenetur, nemo pariatur, quod obcaecati deleniti possimus maiores.
+               </p>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quos debitis harum fugit perferendis? Mollitia officiis, dicta beatae quia error vel harum tenetur, nemo pariatur, quod obcaecati deleniti possimus maiores.
+               </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trending">
+        <div class="container">
+            <h2>Trending</h2>
+            <ul class="container-flex automobile-list">
+                <li>
+                    <img src="./images/carro-bmw.png" alt="bmw car" >
+                    <h3>BMW Car</h3>
+                    <p>Automatic transmission, four-door car with electric locks.</p>
+                    <div class="price">
+                        <strong>$80.000,00</strong>
+                    </div>
+                    <button type="button">Interested!</button>
+                </li>
+
+                <li class="central-item">
+                    <img src="./images/fusca.png" alt="bettle car" >
+                    <h3>Wolkswagen Bettle</h3>
+                    <p>Manual transmission, two-door car with manual locks.</p>
+                    <div class="price">
+                        <strong>$32.000,00</strong>
+                    </div>
+                    <button type="button">Interested!</button>
+                </li>
+
+                <li>
+                    <img src="./images/moto-bmw.png" alt="bmw motorcycle" >
+                    <h3>BMW Motorcycle</h3>
+                    <p>Automatic transmission, propelled by an internal combustion engine.</p>
+                    <div class="price">
+                        <strong>$55.000,00</strong>
+                    </div>
+                    <button type="button">Interested!</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="promotions">
+        <div class="container">
+            <h2>Promotions</h2>
+            <ul class="container-flex automobile-list">
+                <li>
+                    <img src="./images/carro-bmw.png" alt="bmw car" >
+                    <h3>BMW Car</h3>
+                    <p>Automatic transmission, four-door car with electric locks.</p>
+                    <div class="prices">
+                        <del>$84.000,00</del>
+                    <strong>$80.000,00</strong>
+                    </div>
+                    <button type="button" class="btn-promo">Interested!</button>
+                </li>
+
+                <li class="central-item">
+                    <img src="./images/fusca.png" alt="bettle car" >
+                    <h3>Wolkswagen Bettle</h3>
+                    <p>Manual transmission, two-door car with manual locks.</p>
+                    <div class="prices">
+                        <del>$36.000,00</del>
+                    <strong>$32.000,00</strong>
+                    </div>
+                    <button type="button" class="btn-promo">Interested!</button>
+                </li>
+
+                <li>
+                    <img src="./images/moto-bmw.png" alt="bmw motorcycle" >
+                    <h3>BMW Motorcycle</h3>
+                    <p>Automatic transmission, propelled by an internal combustion engine.</p>
+                    <div class="prices">
+                        <del>$59.000,00</del>
+                    <strong>$55.000,00</strong>
+                    </div>
+                    <button type="button" class="btn-promo">Interested!</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+        <h2>Get in touch with us:</h2>
+        <form >
+            <div class="form-field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-field">
+                <label for="telephone">Telephone:</label>
+                <input type="tel" id="tel" name="telephone">
+            </div>
+
+            <div class="form-field">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-field">
+                <label for="chosenCar">Choosed vehicle:</label>
+                <input type="text" id="chosenCar" name="chosenCar">
+            </div>
+
+            <div class="form-field">
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="msg"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container container-flex">
+            <p>
+            &copy; creative motors - 2023 - all rights reserved
+
+            <ul class="container-flex icons">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook-logo" >
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram-logo" >
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube-logo" >
+                    </a>
+                </li>
+
+            </ul>
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+</body>
+</html>

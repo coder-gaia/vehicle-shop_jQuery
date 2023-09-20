@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 768px;
+    width:100%;
+    margin:0 auto;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+header, footer{
+    background-color: #192a56;
+    padding-top:16px;
+    color:#fff;
+}
+header > .container,
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:16px;
+}
+nav{
+    background-color: #575fcf;
+    padding:16px;
+    display: none;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right:16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a{
+    color:#fff;
+    text-decoration: none;
+}
+.hamburguer-menu{
+    width: 32px;
+    cursor: pointer;
+}
+.hamburguer-menu span{
+    height:2px;
+    width:100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+.container-flex{
+    display: flex;
+}
+section {
+    padding:44px 0;
+}
+section h2{
+    margin-bottom: 10px;
+}
+#about-the-shop img{
+    max-width: 300px;
+    margin-right: 24px;
+}
+.automobile-list{
+    flex-wrap:wrap;
+}
+.automobile-list img{
+    max-width: 100%;
+}
+.automobile-list li{
+    list-style: none;
+    max-width: 25%;
+    margin-bottom: 18px;
+}
+.automobile-list li h3{
+    margin:16px 0;
+}
+.central-item{
+    margin: 0 7.5%
+}
+.automobile-list li button{
+    display: block;
+    width:100%;
+    padding: 8px 0;
+    border:none;
+    background-color:#192a56;
+    color:#fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    transition: all .5s;
+
+}
+.automobile-list li button:hover{
+    background-color: #00c943;
+    border-radius: 40px;
+}
+.prices{
+    display: block;
+    margin: 10px 0;
+}
+.prices del{
+    font-style: italic;
+    color:#524b4b;
+    font-size: 17px;
+}
+.btn-promo{
+    background-color: #192a56 !important;
+}
+.btn-promo:hover{
+    background-color: #ffee00 !important;
+    color:#000;
+}
+form{
+    max-width: 330px;
+}
+.form-field{
+    margin-bottom: 13px;
+}
+.form-field label{
+    font-weight: bold;
+    display: block;
+}
+.form-field input,
+.form-field textarea{
+    width:80%;
+    display: block;
+    padding: 5px;
+}
+.form-field textarea{
+    resize: none;
+    height: 110px;
+}
+form button{
+    display: block;
+    width:100px;
+    height: 30px;
+    padding: 4px 0;
+    border:none;
+    background-color:#192a56;
+    color:#fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    transition: all .5s;
+}
+form button:hover{
+    background-color: #5807ee;
+    border-radius: 50px;
+}
+footer li{
+    list-style: none;
+    margin-left: 14px;
+}
+footer li img{
+    max-width: 28px;
+}
+.icons{
+    margin-left: 30%;
+}
